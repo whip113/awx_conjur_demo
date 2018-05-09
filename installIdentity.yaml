@@ -1,5 +1,5 @@
 ---
-- hosts: 'windows dcs'
+- hosts: 'windows_dcs'
   roles:
     - role: cyberark.conjur-host-identity
       conjur_appliance_url: 'https://master.nate.lab/api'
